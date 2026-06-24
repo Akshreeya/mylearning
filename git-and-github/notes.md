@@ -66,3 +66,15 @@ git revert <commit-hash> #creates a brand new commit which reverses/undos the ch
 #this will keep the commit, but also create a new commit that has the old commit
 
 ```
+# Git hub
+
+```powershell
+git clone <url> #to clone a repo
+git remote -v # to view the existing.
+git remote add <name> <url> #to add a new remote.
+git remote set-url origin <url> #Changes the URL of an existing remote repository.
+git push <name> <branch>
+git push <remote> <local-branch>:<remote-branch> # pushes to the remote branch without having to create the local in remote
+git push -u origin <branch-name> #upstreame of the local branch so that it tracks the master branch on the origin repo
+
+```
