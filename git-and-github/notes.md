@@ -15,6 +15,8 @@ git branch -m <branchname> # renaming a branch
 git branch -M main # renaming master to main
 git branch -v #more info on branch
 git switch - #takes to the last branch
+git branch -r #Lists remote branches
+git branch -a #Lists both local and remote branches.
 
 ```
 
